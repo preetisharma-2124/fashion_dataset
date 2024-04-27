@@ -1,0 +1,13 @@
+train: ../fashion dataset.v1i.yolov9/train/images
+val: ../fashion dataset.v1i.yolov9/valid/images
+test: ../fashion dataset.v1i.yolov9/test/images
+
+nc: 9
+names: ['long-sleeve-dress', 'long-sleeve-outwear', 'long-sleeve-top', 'short-sleeve-dress', 'short-sleeve-outwear', 'short-sleeve-top', 'shorts', 'skirt', 'trousers']
+
+roboflow:
+  workspace: work-5sm1b
+  project: fashion-dataset-sa6fn
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/work-5sm1b/fashion-dataset-sa6fn/dataset/1
